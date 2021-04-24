@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://localhost/properties.owl#"
+     xml:base="http://localhost/properties.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:properties="http://localhost/properties.owl#"
+     xmlns:SpecificationMetadata="http://www.omg.org/techprocess/ab/SpecificationMetadata/"
+     xmlns:SpecificationMetadata1="https://www.omg.org/techprocess/ab/SpecificationMetadata/">
+    <owl:Ontology rdf:about="http://localhost/properties.owl">
+        <owl:imports rdf:resource="http://purl.org/heals/ingredient/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/properties.owl#isDrinkType -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/properties.owl#isDrinkType"/>
+    
+
+
+    <!-- http://localhost/properties.owl#originFromRegion -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/properties.owl#originFromRegion"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/properties.owl#Region -->
+
+    <owl:Class rdf:about="http://localhost/properties.owl#Region"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/properties.owl#Africa -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/properties.owl#Africa">
+        <rdf:type rdf:resource="http://localhost/properties.owl#Region"/>
+        <rdfs:label>Africa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/properties.owl#America -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/properties.owl#America">
+        <rdf:type rdf:resource="http://localhost/properties.owl#Region"/>
+        <rdfs:label>America</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/properties.owl#Asia -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/properties.owl#Asia">
+        <rdf:type rdf:resource="http://localhost/properties.owl#Region"/>
+        <rdfs:label>Asia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/properties.owl#Europe -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/properties.owl#Europe">
+        <rdf:type rdf:resource="http://localhost/properties.owl#Region"/>
+        <rdfs:label>Europe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/properties.owl#Oceanian -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/properties.owl#Oceanian">
+        <rdf:type rdf:resource="http://localhost/properties.owl#Region"/>
+        <rdfs:label>Oceanian</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/AlmondBiscotti -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/AlmondBiscotti">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#Europe"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/BakedChickenTender -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/BakedChickenTender">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#America"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/BananaBlueberryAlmondFlourMuffin -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/BananaBlueberryAlmondFlourMuffin">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#America"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/BananaBread -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/BananaBread">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#America"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/BeefNilaga -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/BeefNilaga">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#Asia"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/BeefStew -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/BeefStew">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#Asia"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/BraisedBalsamicChicken -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/BraisedBalsamicChicken">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#Europe"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/Brownies -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/Brownies">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#America"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/ChickenSalad -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/ChickenSalad">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#America"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/CornedBeefHash -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/CornedBeefHash">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#Europe"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/FlourlessCoconutAndAlmondCake -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/FlourlessCoconutAndAlmondCake">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#America"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/GlutenFreeCoconutCake -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/GlutenFreeCoconutCake">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#America"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/GoldenKamutBread -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/GoldenKamutBread">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#Asia"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/GrilledChickenKabob -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/GrilledChickenKabob">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#Asia"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/KamutMuffin -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/KamutMuffin">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#Asia"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/KamutPancake -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/KamutPancake">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#Asia"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/PotRoastWithVegetables -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/PotRoastWithVegetables">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#America"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/SaucyShepherdPie -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/SaucyShepherdPie">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#Europe"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/SmotheredChickenBreast -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/SmotheredChickenBreast">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#America"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/ThaiChicken -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/ThaiChicken">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#Asia"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/WhiteBread -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/WhiteBread">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#Africa"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/heals/ingredient/WholeGrainBananaPancake -->
+
+    <rdf:Description rdf:about="http://purl.org/heals/ingredient/WholeGrainBananaPancake">
+        <originFromRegion rdf:resource="http://localhost/properties.owl#Europe"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
